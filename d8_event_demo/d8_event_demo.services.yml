@@ -1,0 +1,5 @@
+services:
+  d8_event_demo.event_subscriber:
+    class: Drupal\d8_event_demo\EventSubscriber\EventDemoClass
+    tags:
+      - { name: event_subscriber }

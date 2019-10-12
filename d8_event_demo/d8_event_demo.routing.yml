@@ -1,0 +1,7 @@
+d8_event_demo.form:
+  path: '/event-dispatcher-form'
+  defaults:
+    _title: 'Event Dispather Form'
+    _form: '\Drupal\d8_event_demo\Form\DispatchEventForm'
+  requirements:
+    _permission: 'access content'
